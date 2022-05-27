@@ -5,8 +5,8 @@ pool:
   vmImage: ubuntu-latest
 
 variables:
-  project-name-dev: 'my-dev'
-  project-name-uat: 'my-uat'
+  project-name-dev: 'abb-quote-dev'
+  project-name-uat: 'abb-quote-uat'
   image-name: 'kevin-dotnet'
 
 stages:
