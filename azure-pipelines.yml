@@ -52,7 +52,7 @@ stages:
       displayName: Deploy to Kubernetes cluster
       inputs:
         action: deploy
-        kubernetesServiceConnection: 'kechung ROSA k8s cluster'
+        kubernetesServiceConnection: 'ROSA-ABB'
         namespace: '$(project-name-dev)'
         manifests: |
           $(Build.SourcesDirectory)/manifests/kevin-dotnet.deployment.yaml
